@@ -127,6 +127,13 @@ hstr --show-configuration >> ~/.bashrc && . ~/.bashrc
 ```
 
 ```
+cd ~/repos/navi
+curl https://raw.githubusercontent.com/denisidoro/navi/master/scripts/install --output navi_install.sh
+chmod +x ./navi_install.sh
+sudo ./navi_install.sh
+```
+
+```
 sudo curl -Lo /usr/local/bin/anypaste https://anypaste.xyz/sh
 sudo chmod +x /usr/local/bin/anypaste
 ```

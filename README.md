@@ -89,6 +89,9 @@ sudo touch /etc/wsl.conf && sudo nano /etc/wsl.conf
   [automount]
   root = /
   options = "metadata"
+  
+  [interop]
+  appendWindowsPath = false
 ```
 
 ### zsh (bash)
